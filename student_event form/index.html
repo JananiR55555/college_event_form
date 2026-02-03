@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h1> College Event Registration</h1>
+    <p>Fill the form carefully to register for the event</p>
+
+    <form id="eventForm">
+
+        <label>Full Name</label>
+        <input type="text" required>
+
+        <label>Register Number</label>
+        <input type="text" required>
+
+        <label>Email Address</label>
+        <input type="email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" required>
+
+        <label>College Name</label>
+        <input type="text" required>
+
+        <label>Department</label>
+        <input type="text" required>
+
+        <label>Year of Study</label>
+        <select required>
+            <option value="">Select</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+
+        <label>Event Name</label>
+        <select required>
+            <option value="">Select Event</option>
+            <option>Technical Symposium</option>
+            <option>Cultural Fest</option>
+            <option>Workshop</option>
+            <option>Hackathon</option>
+        </select>
+
+        <label>Mode of Participation</label>
+        <select id="mode" required>
+            <option value="">Select</option>
+            <option value="solo">Solo</option>
+            <option value="team">Team</option>
+        </select>
+
+        <div id="teamSection" class="hidden">
+            <label>Team Size</label>
+            <input type="number" min="2" max="6">
+        </div>
+
+        <label>Accommodation Required?</label>
+        <select required>
+            <option>No</option>
+            <option>Yes</option>
+        </select>
+
+        <label>Food Preference</label>
+        <select required>
+            <option>Veg</option>
+            <option>Non-Veg</option>
+        </select>
+
+        <label>Any Queries</label>
+        <textarea rows="4"></textarea>
+
+        <button type="submit">Register Now</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
