@@ -35,4 +35,4 @@ college-event-form/
 - Technical Fests
 
 ##  Author
-Created for college projects and portfolios
+Janani R
