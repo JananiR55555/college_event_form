@@ -1,38 +1,42 @@
-#  College Event Registration Form
+# 🚀 TECHVYOM 2026 – Event Registration Form
 
-A modern and attractive Google Form–style College Event Registration Form built using **HTML, CSS, and JavaScript**.
+Official event registration form for **TECHVYOM 2026**, a National Level Technical Symposium organized by **IFET College of Engineering**.
 
-##  Features
-- Clean and responsive UI
-- Required academic & event details
-- Dynamic team size option
+## 📅 Event Details
+- **Date:** 15 March 2026
+- **Time:** 9:30 AM – 4:30 PM
+- **Venue:** IFET College of Engineering, Villupuram
+
+## ✨ Features
+- Google Form–style UI
+- Dynamic team participation option
+- Responsive and modern design
 - Beginner-friendly code
-- Easy to customize for any college event
+- Easy customization
 
-##  Project Structure
-college-event-form/
-│
+## 🛠 Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+
+## 📁 Project Structure
+TECHVYOM-2026-Event-Registration/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
 
-##  Technologies Used
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
 
-##  How to Use
-1. Download or clone the repository  
+## 🚀 Usage
+1. Clone or download the repository  
 2. Open `index.html` in a browser  
-3. Customize event names & fields if needed  
+3. Modify event details if required  
 
-## Ideal For
+## 🎓 Ideal For
 - College Symposiums
-- Cultural Events
-- Workshops
+- Technical Events
 - Hackathons
-- Technical Fests
+- Workshops
 
-##  Author
+author
 Janani R
