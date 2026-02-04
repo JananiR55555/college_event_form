@@ -1,8 +1,8 @@
-const modeSelect = document.getElementById("mode");
+const mode = document.getElementById("mode");
 const teamSection = document.getElementById("teamSection");
 
-modeSelect.addEventListener("change", () => {
-    if (modeSelect.value === "team") {
+mode.addEventListener("change", () => {
+    if (mode.value === "team") {
         teamSection.classList.remove("hidden");
     } else {
         teamSection.classList.add("hidden");
@@ -11,7 +11,7 @@ modeSelect.addEventListener("change", () => {
 
 document.getElementById("eventForm").addEventListener("submit", function(e) {
     e.preventDefault();
-    alert("🎉 Registration Successful! Thank you for registering.");
+    alert("✅ Registration Successful!\nSee you at TECHVYOM 2026.");
     this.reset();
     teamSection.classList.add("hidden");
 });

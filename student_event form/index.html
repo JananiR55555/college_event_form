@@ -2,54 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>College Event Registration</title>
+    <title>TECHVYOM 2026 | IFET College of Engineering</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="form-container">
-    <h1> College Event Registration</h1>
-    <p>Fill the form carefully to register for the event</p>
+    <h1>🚀 TECHVYOM 2026</h1>
+    <h3>National Level Technical Symposium</h3>
+    <p>
+        IFET College of Engineering<br>
+        📅 15 March 2026 | ⏰ 9:30 AM – 4:30 PM
+    </p>
 
     <form id="eventForm">
 
         <label>Full Name</label>
-        <input type="text" required>
+        <input type="text" placeholder="Enter your full name" required>
 
         <label>Register Number</label>
-        <input type="text" required>
+        <input type="text" placeholder="Enter register number" required>
 
-        <label>Email Address</label>
-        <input type="email" required>
+        <label>Email ID</label>
+        <input type="email" placeholder="example@gmail.com" required>
 
-        <label>Phone Number</label>
-        <input type="tel" required>
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="10-digit mobile number" required>
 
         <label>College Name</label>
-        <input type="text" required>
+        <input type="text" placeholder="Your college name" required>
 
         <label>Department</label>
-        <input type="text" required>
+        <input type="text" placeholder="Eg: CSE, IT, ECE" required>
 
         <label>Year of Study</label>
         <select required>
-            <option value="">Select</option>
+            <option value="">Select Year</option>
             <option>1st Year</option>
             <option>2nd Year</option>
             <option>3rd Year</option>
             <option>4th Year</option>
         </select>
 
-        <label>Event Name</label>
+        <label>Event Category</label>
         <select required>
             <option value="">Select Event</option>
-            <option>Technical Symposium</option>
-            <option>Cultural Fest</option>
-            <option>Workshop</option>
-            <option>Hackathon</option>
+            <option>Paper Presentation</option>
+            <option>Project Expo</option>
+            <option>Debugging Contest</option>
+            <option>Web Design Challenge</option>
+            <option>Technical Quiz</option>
         </select>
 
-        <label>Mode of Participation</label>
+        <label>Participation Type</label>
         <select id="mode" required>
             <option value="">Select</option>
             <option value="solo">Solo</option>
@@ -58,7 +63,7 @@
 
         <div id="teamSection" class="hidden">
             <label>Team Size</label>
-            <input type="number" min="2" max="6">
+            <input type="number" min="2" max="5" placeholder="2 - 5 members">
         </div>
 
         <label>Accommodation Required?</label>
@@ -74,9 +79,10 @@
         </select>
 
         <label>Any Queries</label>
-        <textarea rows="4"></textarea>
+        <textarea rows="4" placeholder="Optional"></textarea>
 
-        <button type="submit">Register Now</button>
+        <button type="submit">Register for TECHVYOM 2026</button>
+
     </form>
 </div>
 
